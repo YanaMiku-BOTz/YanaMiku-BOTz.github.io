@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.price-display {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #27ae60; /* Green color for price */
+    margin: 20px 0;
+    padding: 10px;
+    border: 2px solid #27ae60;
+    border-radius: 5px;
+    background-color: #e8f5e9;
+}
+
+.last-updated {
+    font-size: 0.9em;
+    color: #7f8c8d;
+    margin-top: 15px;
+}
+
+.attribution {
+    font-size: 0.8em;
+    color: #95a5a6;
+    margin-top: 30px;
+}
+
+.attribution a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    text-decoration: underline;
+}
